@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16097.2" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Three_Letter_Word_hackwich" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="three letter word" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3jH-KB-UxB">
+                                <rect key="frame" x="114.5" y="108" width="185" height="29"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-MediumItalic" family="Helvetica Neue" pointSize="24"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="current letter" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="M0u-DZ-Hie">
+                                <rect key="frame" x="156" y="172" width="102" height="21"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-MediumItalic" family="Helvetica Neue" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6xc-eN-khj">
+                                <rect key="frame" x="157" y="224" width="100" height="100"/>
+                                <color key="backgroundColor" systemColor="systemGray3Color" red="0.78039215689999997" green="0.78039215689999997" blue="0.80000000000000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="100" id="OMT-QS-Wa6"/>
+                                    <constraint firstAttribute="width" constant="100" id="xQj-sD-3mn"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-MediumItalic" family="Helvetica Neue" pointSize="100"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xSn-3O-Ifn">
+                                <rect key="frame" x="44" y="338" width="100" height="100"/>
+                                <color key="backgroundColor" systemColor="systemGray3Color" red="0.78039215689999997" green="0.78039215689999997" blue="0.80000000000000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="100" id="l78-Es-3Xw"/>
+                                    <constraint firstAttribute="width" constant="100" id="xiR-yo-kCL"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-MediumItalic" family="Helvetica Neue" pointSize="100"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="APz-Ln-EX8">
+                                <rect key="frame" x="157" y="337" width="100" height="100"/>
+                                <color key="backgroundColor" systemColor="systemGray3Color" red="0.78039215689999997" green="0.78039215689999997" blue="0.80000000000000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="100" id="4DS-tV-2rq"/>
+                                    <constraint firstAttribute="height" constant="100" id="if3-rq-51z"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-MediumItalic" family="Helvetica Neue" pointSize="100"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RhH-Ir-0Lz">
+                                <rect key="frame" x="270" y="338" width="100" height="100"/>
+                                <color key="backgroundColor" systemColor="systemGray3Color" red="0.78039215689999997" green="0.78039215689999997" blue="0.80000000000000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="100" id="PeM-az-8Gl"/>
+                                    <constraint firstAttribute="width" constant="100" id="Yrt-ZV-ggU"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-MediumItalic" family="Helvetica Neue" pointSize="100"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dbn-zk-rom">
+                                <rect key="frame" x="187" y="482" width="40" height="33"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-MediumItalic" family="Helvetica Neue" pointSize="17"/>
+                                <state key="normal" title="reset">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="onResetButtonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="atv-be-e3X"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <gestureRecognizers/>
+                        <constraints>
+                            <constraint firstItem="APz-Ln-EX8" firstAttribute="leading" secondItem="xSn-3O-Ifn" secondAttribute="trailing" constant="13" id="0v3-8P-MGE"/>
+                            <constraint firstItem="M0u-DZ-Hie" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="678-Xo-9vS"/>
+                            <constraint firstItem="3jH-KB-UxB" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="8M0-oo-4Po"/>
+                            <constraint firstItem="xSn-3O-Ifn" firstAttribute="top" secondItem="3jH-KB-UxB" secondAttribute="bottom" constant="201" id="9gu-8a-SQi"/>
+                            <constraint firstItem="dbn-zk-rom" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="DZo-Eg-Emy"/>
+                            <constraint firstItem="6xc-eN-khj" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="FdZ-ow-lnU"/>
+                            <constraint firstItem="M0u-DZ-Hie" firstAttribute="top" secondItem="3jH-KB-UxB" secondAttribute="bottom" constant="35" id="IIX-sX-WLb"/>
+                            <constraint firstItem="APz-Ln-EX8" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Odx-fT-JPz"/>
+                            <constraint firstItem="RhH-Ir-0Lz" firstAttribute="top" secondItem="3jH-KB-UxB" secondAttribute="bottom" constant="201" id="UuO-4m-OKs"/>
+                            <constraint firstItem="APz-Ln-EX8" firstAttribute="top" secondItem="6xc-eN-khj" secondAttribute="bottom" constant="13" id="awK-av-4hj"/>
+                            <constraint firstItem="6xc-eN-khj" firstAttribute="top" secondItem="M0u-DZ-Hie" secondAttribute="bottom" constant="31" id="hTG-tH-8j4"/>
+                            <constraint firstItem="RhH-Ir-0Lz" firstAttribute="leading" secondItem="APz-Ln-EX8" secondAttribute="trailing" constant="13" id="k5t-DD-ZsG"/>
+                            <constraint firstItem="dbn-zk-rom" firstAttribute="top" secondItem="APz-Ln-EX8" secondAttribute="bottom" constant="45" id="lZr-lK-EYB"/>
+                            <constraint firstItem="3jH-KB-UxB" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="64" id="vzZ-Du-87v"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <connections>
+                            <outletCollection property="gestureRecognizers" destination="gEO-I1-ALK" appends="YES" id="vY0-To-tGE"/>
+                        </connections>
+                    </view>
+                    <connections>
+                        <outlet property="currentLetterLabel" destination="6xc-eN-khj" id="O6o-9o-786"/>
+                        <outlet property="label0" destination="xSn-3O-Ifn" id="rzA-t5-HE8"/>
+                        <outlet property="label1" destination="APz-Ln-EX8" id="972-Yv-XNM"/>
+                        <outlet property="label2" destination="RhH-Ir-0Lz" id="wyW-hh-IW0"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+                <tapGestureRecognizer id="gEO-I1-ALK">
+                    <connections>
+                        <action selector="whenTapped:" destination="BYZ-38-t0r" id="0I9-dr-Zmx"/>
+                    </connections>
+                </tapGestureRecognizer>
+            </objects>
+            <point key="canvasLocation" x="104" y="126"/>
+        </scene>
+    </scenes>
+</document>
